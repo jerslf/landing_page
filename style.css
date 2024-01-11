@@ -120,3 +120,45 @@ img {
   display: flex;
   justify-content: flex-end;
 }
+
+.action {
+  padding: 50px 10%;
+}
+
+.action {
+  background-color: #3882f6;
+  display: flex;
+  margin: 50px 10%;
+  justify-content: space-between;
+  border-radius: 8px;
+  align-items: center;
+  gap: 30px;
+}
+
+.action .left {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.text1 {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.text2 {
+  color: #e5e7eb;
+  font-weight: 400;
+}
+
+.alt {
+  background-color: #3882f6;
+  color: white;
+  font-weight: bold;
+  border: 2px solid white;
+  border-color: white;
+  border-radius: 8px;
+  width: 100px;
+  height: 30px;
+}
