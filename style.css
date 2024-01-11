@@ -82,14 +82,14 @@ img {
   color: #1f2937;
   display: flex;
   justify-content: center;
-  padding: 25px;
+  padding: 60px;
 }
 
 .container {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  padding: 0 10% 50px 10%;
+  padding: 0 10% 60px 10%;
   gap: 20px;
 }
 
@@ -161,4 +161,17 @@ img {
   border-radius: 8px;
   width: 100px;
   height: 30px;
+}
+
+.footer {
+  background-color: #1f2937;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .text {
+  color: #e5e7eb;
+  font-size: 15px;
 }
